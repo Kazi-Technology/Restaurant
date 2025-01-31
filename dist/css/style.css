@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none!important;
     box-sizing: border-box;
+    outline: none;
     margin: 0;
     padding: 0;
 }
@@ -41,6 +42,8 @@ body {
     font-size: 1rem;
 }
 
+/* Header */
+
 header{
     background-color: var(--colorWhite);
     width: 100%;
@@ -53,4 +56,20 @@ header a{
 
 header .commande i{
     font-size: 2rem;
+}
+
+/* Recherche */
+
+.div-search{
+    height: 40px;
+}
+
+.div-search input{
+    height: 100%;
+    width: 90%;
+}
+
+.div-search label{
+    width: 10%;
+    cursor: pointer;
 }
