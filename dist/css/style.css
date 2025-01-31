@@ -75,3 +75,32 @@ header .commande i{
     cursor: pointer;
     width: 9%;
 }
+
+/* Accueil */
+
+.accueil h1{
+    font-size: 3rem;
+}
+
+.accueil h1 span{
+    font-style: italic;
+    font-family: 'cursive';
+    color: orange;
+    text-decoration: blink;
+}
+
+.accueil .plaDuJour .img-price img{
+    width: 100%;
+    height: 100%;
+}
+
+.accueil .plaDuJour .img-price .prix{
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+.accueil .plaDuJour .img-price .prix h3{
+    background-color: orange;
+    width: 20%;
+}
