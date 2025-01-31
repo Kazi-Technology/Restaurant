@@ -32,7 +32,7 @@
 
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background-color: var(--colorWhite);
+    background-color: gray;
 }
 
 /* Body */
@@ -91,7 +91,6 @@ header .commande i{
 
 .accueil .plaDuJour .img-price img{
     width: 100%;
-    height: 100%;
 }
 
 .accueil .plaDuJour .img-price .prix{
@@ -101,6 +100,39 @@ header .commande i{
 }
 
 .accueil .plaDuJour .img-price .prix h3{
+    background-color: orange;
+    width: 20%;
+}
+
+/* Menu */
+
+.menu .categories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menu .categories .categorie .slide{
+    width: 100%;
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+
+.menu .categories .categorie .slide .slide-item{
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu .categories .categorie .slide .img-price img{
+    width: 100%;
+}
+
+.menu .categories .categorie .slide .img-price .prix{
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+.menu .categories .categorie .slide .img-price .prix h5{
     background-color: orange;
     width: 20%;
 }
