@@ -62,14 +62,16 @@ header .commande i{
 
 .div-search{
     height: 40px;
+    width: 100%;
 }
 
 .div-search input{
     height: 100%;
     width: 90%;
+    border-right: 1px solid grey!important;
 }
 
 .div-search label{
-    width: 10%;
     cursor: pointer;
+    width: 9%;
 }
