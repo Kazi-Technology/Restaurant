@@ -6,10 +6,11 @@
   padding: 0;
 }
 
-:root{
-  --bgColor: red;
+body{
+  background-color: rgba(0, 0, 0, alpha);
+  font-size: 1rem;
 }
 
-body{
-  background-color: var(--bgColor);
+.menu div i{
+  font-size: 1.6rem;
 }
