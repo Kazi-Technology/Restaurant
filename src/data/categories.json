@@ -1,0 +1,52 @@
+{
+    "categories": [
+      { 
+        "nom": "technologie", 
+        "titre": "Technologie" 
+      },
+      { "nom": "science",
+       "titre": "Science" 
+      },
+      { "nom": "sport",
+       "titre": "Sport" 
+      }
+    ],
+
+    "elements": [
+      { "id": 1,
+       "nom": "iPhone 15",
+        "description": "Nouveau modèle Apple",
+           "categorie": "technologie" 
+      },
+      { 
+       "id": 2,
+       "nom": "Tesla Model 3",
+       "description": "Voiture électrique innovante",
+       "categorie": "technologie" 
+      },
+      { "id": 3,
+       "nom": "Expérience sur Mars",
+       "description": "Nouvelles recherches spatiales",
+       "categorie": "science" 
+      },
+      {
+       "id": 4,
+       "nom": "IA en médecine",
+       "description": "L'intelligence artificielle appliquée à la santé",
+       "categorie": "science" 
+      },
+      { 
+       "id": 5,
+       "nom": "Coupe du Monde",
+       "description": "Les matchs et résultats",
+       "categorie": "sport" 
+      },
+      { 
+       "id": 6,
+       "nom": "NBA Playoffs",
+       "description": "Les meilleures équipes s'affrontent",
+       "categorie": "sport" 
+    }
+    ]
+  }
+  

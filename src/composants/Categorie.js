@@ -1,27 +1,32 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
+import data from "../data/categories.json";
 
-function Categorie(){
+function Categorie() {
+  const { nomCategorie } = useParams();
+  const categorie = data.categories.find((cat) => cat.nom === nomCategorie);
+  const elements = data.elements.filter((el) => el.categorie === nomCategorie);
 
-let { nomCategorie } = useParams(); // Récupère le paramètre de l'URL
-
-const categories = {
-    categorie1: ["Ordinateurs", "Smartphones", "Objets connectés"],
-    categorie2: ["Astronomie", "Biologie", "Chimie"],
-    categorie3: ["Football", "Basketball", "Tennis"],
-    categorie4: ["Football", "Basketball", "Tennis"]
-  };
+  if (!categorie) {
+    return <h2>Catégorie introuvable !</h2>;
+  }
 
   return (
     <div>
-      <h4>Catégorie : {nomCategorie}</h4>
-      <ul>
-        {categories[nomCategorie]?.map((item, index) => (
-          <li key={index}>{item}</li>
-        )) || <p>Catégorie introuvable</p>}
-      </ul>
+      <h2>{categorie.titre}</h2>
+      {elements.length > 0 ? (
+        <ul>
+          {elements.map((el) => (
+            <li key={el.id}>
+              <h3>{el.nom}</h3>
+              <p>{el.description}</p>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>Aucun élément disponible dans cette catégorie.</p>
+      )}
     </div>
   );
 }
-
 
 export default Categorie;
