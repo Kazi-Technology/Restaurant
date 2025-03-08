@@ -2,7 +2,7 @@ import logo from '../assets/logos/logo.png'
 
 const Navbar = () => {
     return (
-        <header className="bg-white p-2 menu">
+        <header className="bg-white p-2 menu mb-4">
             
             <div className="container d-flex align-items-center justify-content-between ">
                 <i class="bi bi-house-fill"></i>
