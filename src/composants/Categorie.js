@@ -11,20 +11,23 @@ function Categorie() {
   }
 
   return (
-    <div>
-      <h2>{categorie.titre}</h2>
-      {elements.length > 0 ? (
-        <ul>
-          {elements.map((el) => (
-            <li key={el.id}>
-              <h3>{el.nom}</h3>
-              <p>{el.description}</p>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>Aucun élément disponible dans cette catégorie.</p>
-      )}
+    <div className="p-4">
+
+      <h5>{categorie.titre}</h5>
+      <div className="plats d-flex">
+        {elements.length > 0 ? (
+            elements.map((el) => (
+              <div key={el.id} className="plat">
+                  <img src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
+                  <h3>{el.nom}</h3>
+                  <p>{el.description}</p>
+              </div>
+            ))
+        ) : (
+          <h2>Aucun élément disponible dans cette catégorie.</h2>
+        )}
+      </div>
+
     </div>
   );
 }

@@ -13,37 +13,45 @@
     ],
 
     "elements": [
-      { "id": 1,
+      { 
+       "id": 1,
        "nom": "iPhone 15",
-        "description": "Nouveau modèle Apple",
-           "categorie": "technologie" 
+       "img" : "burgers.jpg",
+       "description": "Nouveau modèle Apple",
+       "categorie": "technologie" 
       },
       { 
        "id": 2,
        "nom": "Tesla Model 3",
+       "img" : "spas.jpg",
        "description": "Voiture électrique innovante",
        "categorie": "technologie" 
       },
-      { "id": 3,
+      { 
+       "id": 3,
        "nom": "Expérience sur Mars",
+       "img" : "back-1.png",
        "description": "Nouvelles recherches spatiales",
        "categorie": "science" 
       },
       {
        "id": 4,
        "nom": "IA en médecine",
+       "img" : "chawarma.jpg",
        "description": "L'intelligence artificielle appliquée à la santé",
        "categorie": "science" 
       },
       { 
        "id": 5,
        "nom": "Coupe du Monde",
+       "img" : "poisson.jpg",
        "description": "Les matchs et résultats",
        "categorie": "sport" 
       },
       { 
-       "id": 6,
+    "id": 6,
        "nom": "NBA Playoffs",
+       "img" : "repas.jpg",
        "description": "Les meilleures équipes s'affrontent",
        "categorie": "sport" 
     }
