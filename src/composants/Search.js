@@ -40,7 +40,7 @@ const Search = () => {
                     {filteredData.length > 0 ? (
                       filteredData.map((el) => (
                         <div className="bg-white overflow-hidden result rounded p-2" key={el.id}>
-                            <img className="rounded" src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
+                            <img className="rounded w-100" src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
                             <h5 className="p-1">{`CDF ${el.prix}`}</h5>
                             <p className="p-1">{el.description}</p>
                             <button className="btn btn-danger w-100 p-2 fw-bold"><i className="bi bi-plus-lg"></i> Ajouter</button>
