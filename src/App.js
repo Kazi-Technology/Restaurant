@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './composants/Navbar';
 import Categorie from './composants/Categorie'
 import Accueil from './composants/Accueil'
+import Footer from './composants/Footer'
 import CategoriesList from './composants/CategoriesList';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
@@ -24,6 +25,8 @@ function App() {
           </Routes>
         </div>
       </Router>
+
+      <Footer></Footer>
 
     </div>
   );

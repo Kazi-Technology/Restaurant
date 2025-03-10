@@ -8,7 +8,7 @@ function CategoriesList() {
         <NavLink
           key={cat.nom}
           to={`/categorie/${cat.nom}`}
-          className={({ isActive }) => (isActive ? "active p-1 rounded bg-info text-white" : "nav-link p-1 rounded")}
+          className={({ isActive }) => (isActive ? "active p-1 rounded bg-danger text-white" : "nav-link p-1 rounded")}
         >
           {cat.titre}
         </NavLink>

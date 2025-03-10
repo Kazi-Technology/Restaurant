@@ -11,16 +11,18 @@ function Categorie() {
   }
 
   return (
-    <div className="p-4">
+    <div className="p-3 mb-4">
 
-      <h5>{categorie.titre}</h5>
-      <div className="plats d-flex">
+      <h5 className="mb-3">{categorie.titre}</h5>
+      <div className="plats gap-3 rounded d-flex">
         {elements.length > 0 ? (
             elements.map((el) => (
               <div key={el.id} className="plat">
-                  <img src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
-                  <h3>{el.nom}</h3>
-                  <p>{el.description}</p>
+                  <img className="rounded" src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
+                  <h5 className="p-1">{el.prix}</h5>
+                  <p className="p-1">{el.description}</p>
+
+                  <button className="btn btn-danger w-100 p-2 fw-bold"><i className="bi bi-plus-lg"></i> Ajouter</button>
               </div>
             ))
         ) : (

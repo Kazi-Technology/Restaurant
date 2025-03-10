@@ -13,48 +13,90 @@
     ],
 
     "elements": [
-      { 
-       "id": 1,
-       "nom": "iPhone 15",
-       "img" : "burgers.jpg",
-       "description": "Nouveau modèle Apple",
-       "categorie": "technologie" 
+        { 
+        "id": 1,
+        "prix": "17 500fc",
+        "img" : "poulet.png",
+        "description": "Poulet grillé",
+        "categorie": "technologie" 
+        },
+        { 
+        "id": 2,
+        "prix": "12 500fc",
+        "img" : "nouilles.png",
+        "description": "des nouilles",
+        "categorie": "technologie" 
+        },
+        { 
+        "id": 3,
+        "prix": "20 000fc",
+        "img" : "cuisse.png",
+        "description": "Borito's",
+        "categorie": "science" 
+        },
+        {
+        "id": 4,
+        "prix": "12 000fc",
+        "img" : "chawarma.png",
+        "description": "Chawarma poulet",
+        "categorie": "science" 
+        },
+        { 
+        "id": 5,
+        "prix": "22 499fc",
+        "img" : "boritos.png",
+        "description": "Cuisse de poulet accompagné",
+        "categorie": "sport" 
+        },
+        { 
+        "id": 6,
+        "prix": "34 200fc",
+        "img" : "burger.png",
+        "description": "Burger",
+        "categorie": "sport" 
       },
       { 
-       "id": 2,
-       "nom": "Tesla Model 3",
-       "img" : "spas.jpg",
-       "description": "Voiture électrique innovante",
-       "categorie": "technologie" 
-      },
-      { 
-       "id": 3,
-       "nom": "Expérience sur Mars",
-       "img" : "back-1.png",
-       "description": "Nouvelles recherches spatiales",
-       "categorie": "science" 
-      },
-      {
-       "id": 4,
-       "nom": "IA en médecine",
-       "img" : "chawarma.jpg",
-       "description": "L'intelligence artificielle appliquée à la santé",
-       "categorie": "science" 
-      },
-      { 
-       "id": 5,
-       "nom": "Coupe du Monde",
-       "img" : "poisson.jpg",
-       "description": "Les matchs et résultats",
-       "categorie": "sport" 
-      },
-      { 
-    "id": 6,
-       "nom": "NBA Playoffs",
-       "img" : "repas.jpg",
-       "description": "Les meilleures équipes s'affrontent",
-       "categorie": "sport" 
-    }
+        "id": 1,
+        "prix": "17 500fc",
+        "img" : "poulet.png",
+        "description": "Poulet grillé",
+        "categorie": "technologie" 
+        },
+        { 
+        "id": 2,
+        "prix": "12 500fc",
+        "img" : "nouilles.png",
+        "description": "des nouilles",
+        "categorie": "technologie" 
+        },
+        { 
+        "id": 3,
+        "prix": "20 000fc",
+        "img" : "cuisse.png",
+        "description": "Borito's",
+        "categorie": "science" 
+        },
+        {
+        "id": 4,
+        "prix": "12 000fc",
+        "img" : "chawarma.png",
+        "description": "Chawarma poulet",
+        "categorie": "science" 
+        },
+        { 
+        "id": 5,
+        "prix": "22 499fc",
+        "img" : "boritos.png",
+        "description": "Cuisse de poulet accompagné",
+        "categorie": "sport" 
+        },
+        { 
+        "id": 6,
+        "prix": "34 200fc",
+        "img" : "burger.png",
+        "description": "Burger",
+        "categorie": "sport" 
+      }
     ]
   }
   
