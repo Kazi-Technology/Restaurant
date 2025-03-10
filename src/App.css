@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
 *, ::before, ::after{
   text-decoration: none!important;
   list-style: none;
@@ -14,6 +17,8 @@ body{
 
 .menu{
   width: 100%;
+  top: 0;
+  border-bottom: 1px solid rgba(217, 217, 217, .4);
 }
 
 .menu div i{
@@ -28,23 +33,18 @@ body{
   cursor: pointer;
 }
 
-.accueil{
-  background-image: url('assets/images/poisson.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 60vh;
+.search{
+  margin-top: 80px;
 }
 
-.accueil .search{
-  border-radius: 50px;
-}
-
-.accueil .search input{
+.search input{
   width: 80%;
+  border-radius: 8px 0 0 8px;
 }
 
-.accueil .search label{
+.search label{
   width: 20%;
+  border-radius: 0 8px 8px 0;
   cursor: pointer;
 }
 
@@ -54,11 +54,3 @@ body{
 }
 
 /* Plats */
-
-.plats{
-  width: 300px;
-}
-
-.plat img{
-
-}

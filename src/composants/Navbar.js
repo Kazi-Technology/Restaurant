@@ -2,12 +2,11 @@ import logo from '../assets/logos/logo.png'
 
 const Navbar = () => {
     return (
-        <header className="position-fixed bg-white p-2 menu">
+        <header className="bg-white position-fixed p-2 menu mb-5">
             
             <div className="container d-flex align-items-center justify-content-between ">
-                <i class="bi bi-house-fill"></i>
 
-                <a href="index">
+                <a href="/">
                     <img src={logo} alt="logo" />
                 </a>
 

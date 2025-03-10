@@ -56,42 +56,42 @@
         "categorie": "sport" 
       },
       { 
-        "id": 1,
+        "id": 7,
         "prix": "17 500fc",
         "img" : "poulet.png",
         "description": "Poulet grillé",
         "categorie": "technologie" 
         },
         { 
-        "id": 2,
+        "id": 8,
         "prix": "12 500fc",
         "img" : "nouilles.png",
         "description": "des nouilles",
         "categorie": "technologie" 
         },
         { 
-        "id": 3,
+        "id": 9,
         "prix": "20 000fc",
         "img" : "cuisse.png",
         "description": "Borito's",
         "categorie": "science" 
         },
         {
-        "id": 4,
+        "id": 10,
         "prix": "12 000fc",
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
         "categorie": "science" 
         },
         { 
-        "id": 5,
+        "id": 11,
         "prix": "22 499fc",
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
         "categorie": "sport" 
         },
         { 
-        "id": 6,
+        "id": 12,
         "prix": "34 200fc",
         "img" : "burger.png",
         "description": "Burger",

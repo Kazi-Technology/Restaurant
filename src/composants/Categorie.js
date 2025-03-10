@@ -11,7 +11,7 @@ function Categorie() {
   }
 
   return (
-    <div className="p-3 mb-4">
+    <div className="p-3 mb-4 bg-white rounded overflow-hidden">
 
       <h5 className="mb-3">{categorie.titre}</h5>
       <div className="plats gap-3 rounded d-flex">

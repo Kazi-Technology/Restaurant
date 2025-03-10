@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './composants/Navbar';
 import Categorie from './composants/Categorie'
-import Accueil from './composants/Accueil'
+import Search from './composants/Search'
 import Footer from './composants/Footer'
 import CategoriesList from './composants/CategoriesList';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -12,19 +12,24 @@ function App() {
 
       <Navbar></Navbar>
 
-      <Accueil></Accueil>
+      <Search></Search>
 
-      <h1 className="p-1">Catégories</h1>
-      <Router>
-        <div>
-          <CategoriesList></CategoriesList>
+      <div className="container">
 
-          {/* Définition des routes */}
-          <Routes>
-            <Route path="/categorie/:nomCategorie" element={<Categorie/>} />
-          </Routes>
-        </div>
-      </Router>
+        <h1>Catégories</h1>
+        <Router>
+          
+            <CategoriesList></CategoriesList>
+            {/* Définition des routes */}
+            <Routes>
+              <Route path="/categorie/:nomCategorie" element={<Categorie/>} />
+            </Routes>
+          
+        </Router>
+
+      </div>
+
+      
 
       <Footer></Footer>
 
