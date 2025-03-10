@@ -79,3 +79,34 @@ body{
   user-select: none; 
   pointer-events: none;
 }
+
+/* Recherche */
+
+.results-search{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width : 900px){
+
+  .results-search{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media (max-width : 650px){
+
+  .results-search{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width : 400px){
+
+  .results-search{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
