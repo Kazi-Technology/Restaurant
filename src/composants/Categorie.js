@@ -3,17 +3,17 @@ import data from "../data/categories.json";
 
 function Categorie() {
   const { nomCategorie } = useParams();
-  const categorie = data.categories.find((cat) => cat.nom === nomCategorie);
+  const categorie = data.categories.find((cat) => cat.nomcat === nomCategorie);
   const elements = data.elements.filter((el) => el.categorie === nomCategorie);
 
   if (!categorie) {
-    return <h2>Catégorie introuvable !</h2>;
+    return <h2 className="p-1">Catégorie introuvable !</h2>;
   }
 
   return (
     <div className="p-3 mb-4 bg-white rounded overflow-hidden">
 
-      <h5 className="mb-3">{categorie.titre}</h5>
+      <h5 className="mb-3">{categorie.nomcat}</h5>
       <div className="plats gap-3 rounded d-flex">
         {elements.length > 0 ? (
             elements.map((el) => (

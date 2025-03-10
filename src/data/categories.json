@@ -1,14 +1,14 @@
 {
     "categories": [
       { 
-        "nom": "technologie", 
-        "titre": "Technologie" 
+        "idcat": "1", 
+        "nomcat": "Deserts" 
       },
-      { "nom": "science",
-       "titre": "Science" 
+      { "idcat": "2",
+       "nomcat": "A emporter" 
       },
-      { "nom": "sport",
-       "titre": "Sport" 
+      { "idcat": "3",
+       "nomcat": "Repas complets" 
       }
     ],
 
@@ -18,84 +18,84 @@
         "prix": "17 500fc",
         "img" : "poulet.png",
         "description": "Poulet grillé",
-        "categorie": "technologie" 
+        "categorie": "Repas complets" 
         },
         { 
         "id": 2,
         "prix": "12 500fc",
         "img" : "nouilles.png",
         "description": "des nouilles",
-        "categorie": "technologie" 
+        "categorie": "Repas complets" 
         },
         { 
         "id": 3,
         "prix": "20 000fc",
         "img" : "cuisse.png",
         "description": "Borito's",
-        "categorie": "science" 
+        "categorie": "Repas complets" 
         },
         {
         "id": 4,
         "prix": "12 000fc",
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "science" 
+        "categorie": "Deserts" 
         },
         { 
         "id": 5,
         "prix": "22 499fc",
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "sport" 
+        "categorie": "Deserts" 
         },
         { 
         "id": 6,
         "prix": "34 200fc",
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "sport" 
+        "categorie": "Repas complets" 
       },
       { 
         "id": 7,
         "prix": "17 500fc",
         "img" : "poulet.png",
         "description": "Poulet grillé",
-        "categorie": "technologie" 
+        "categorie": "A emporter" 
         },
         { 
         "id": 8,
         "prix": "12 500fc",
         "img" : "nouilles.png",
         "description": "des nouilles",
-        "categorie": "technologie" 
+        "categorie": "A emporter" 
         },
         { 
         "id": 9,
         "prix": "20 000fc",
         "img" : "cuisse.png",
         "description": "Borito's",
-        "categorie": "science" 
+        "categorie": "A emporter" 
         },
         {
         "id": 10,
         "prix": "12 000fc",
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "science" 
+        "categorie": "A emporter" 
         },
         { 
         "id": 11,
         "prix": "22 499fc",
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "sport" 
+        "categorie": "Deserts" 
         },
         { 
         "id": 12,
         "prix": "34 200fc",
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "sport" 
+        "categorie": "Deserts" 
       }
     ]
   }

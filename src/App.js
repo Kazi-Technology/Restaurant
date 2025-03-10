@@ -16,7 +16,7 @@ function App() {
 
       <div className="container">
 
-        <h1>Catégories</h1>
+        <h1 className="p-1">Catégories</h1>
         <Router>
           
             <CategoriesList></CategoriesList>
