@@ -1,37 +1,23 @@
 import './App.css';
-import Navbar from './composants/Navbar';
-import Categorie from './composants/Categorie'
-import Search from './composants/Search'
-import Footer from './composants/Footer'
-import CategoriesList from './composants/CategoriesList';
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Preloader from './composants/Preloader'
+import Home from './composants/Home'
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false); // Cache le preloader après 3 secondes
+    }, 3000);
+  }, []);
+
   return (
     <div>
 
-      <Navbar></Navbar>
-
-      <Search></Search>
-
-      <div className="container">
-
-        <h1 className="p-2">Catégories</h1>
-        <Router>
-          
-            <CategoriesList></CategoriesList>
-            {/* Définition des routes */}
-            <Routes>
-              <Route path="/categorie/:nomCategorie" element={<Categorie/>} />
-              <Route path="" element={<Categorie/>}/>
-            </Routes>
-          
-        </Router>
-
-      </div>
-
-      <Footer></Footer>
-
+      {loading ? <Preloader /> : <Home/> }
+     
     </div>
   );
 }

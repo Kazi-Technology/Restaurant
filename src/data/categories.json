@@ -2,7 +2,7 @@
     "categories": [
       { 
         "idcat": "1", 
-        "nomcat": "Deserts" 
+        "nomcat": "Desserts" 
       },
       { "idcat": "2",
        "nomcat": "A emporter" 
@@ -15,171 +15,171 @@
     "elements": [
         { 
         "id": 1,
-        "prix": "17 500fc",
+        "prix": 17500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
         "categorie": "Repas complets" 
         },
         { 
         "id": 2,
-        "prix": "12 500fc",
+        "prix": 12500,
         "img" : "nouilles.png",
         "description": "des nouilles",
         "categorie": "Repas complets" 
         },
         { 
         "id": 3,
-        "prix": "20 000fc",
+        "prix": 20400,
         "img" : "cuisse.png",
         "description": "Borito's",
         "categorie": "Repas complets" 
         },
         {
         "id": 4,
-        "prix": "12 000fc",
+        "prix": 12500,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
         },
         { 
         "id": 5,
-        "prix": "22 499fc",
+        "prix": 23500,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
         },
         { 
         "id": 6,
-        "prix": "34 200fc",
+        "prix": 35500,
         "img" : "burger.png",
         "description": "Burger",
         "categorie": "Repas complets" 
       },
       { 
         "id": 7,
-        "prix": "17 500fc",
+        "prix": 19500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
         "categorie": "A emporter" 
         },
         { 
         "id": 8,
-        "prix": "12 500fc",
+        "prix": 20200,
         "img" : "nouilles.png",
         "description": "des nouilles",
         "categorie": "A emporter" 
         },
         { 
         "id": 9,
-        "prix": "20 000fc",
+        "prix": 20450,
         "img" : "cuisse.png",
         "description": "Borito's",
         "categorie": "A emporter" 
         },
         {
         "id": 10,
-        "prix": "12 000fc",
+        "prix": 13600,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
         "categorie": "A emporter" 
         },
         { 
         "id": 11,
-        "prix": "22 499fc",
+        "prix": 22500,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
         },
         { 
         "id": 12,
-        "prix": "34 200fc",
+        "prix": 34.200,
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
       },
       { 
         "id": 13,
-        "prix": "17 500fc",
+        "prix": 17500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
         "categorie": "Repas complets" 
         },
         { 
         "id": 14,
-        "prix": "12 500fc",
+        "prix": 12500,
         "img" : "nouilles.png",
         "description": "des nouilles",
         "categorie": "Repas complets" 
         },
         { 
         "id": 15,
-        "prix": "20 000fc",
+        "prix": 20100,
         "img" : "cuisse.png",
         "description": "Borito's",
         "categorie": "Repas complets" 
         },
         {
         "id": 16,
-        "prix": "12 000fc",
+        "prix": 12700,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
         },
         { 
         "id": 17,
-        "prix": "22 499fc",
+        "prix": 22499,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
         },
         { 
         "id": 18,
-        "prix": "34 200fc",
+        "prix": 34200,
         "img" : "burger.png",
         "description": "Burger",
         "categorie": "Repas complets" 
       },
       { 
         "id": 19,
-        "prix": "17 500fc",
+        "prix": 17500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
         "categorie": "A emporter" 
         },
         { 
         "id": 20,
-        "prix": "12 500fc",
+        "prix": 12500,
         "img" : "nouilles.png",
         "description": "des nouilles",
         "categorie": "A emporter" 
         },
         { 
         "id": 21,
-        "prix": "20 000fc",
+        "prix": 20200,
         "img" : "cuisse.png",
         "description": "Borito's",
         "categorie": "A emporter" 
         },
         {
         "id": 22,
-        "prix": "12 000fc",
+        "prix": 12700,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
         "categorie": "A emporter" 
         },
         { 
         "id": 23,
-        "prix": "22 499fc",
+        "prix": 25500,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
         },
         { 
         "id": 24,
-        "prix": "34 200fc",
+        "prix": 34200,
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "Deserts" 
+        "categorie": "Desserts" 
       }
     ]
   }
