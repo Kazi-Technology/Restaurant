@@ -16,20 +16,19 @@ function App() {
 
       <div className="container">
 
-        <h1 className="p-1">Catégories</h1>
+        <h1 className="p-2">Catégories</h1>
         <Router>
           
             <CategoriesList></CategoriesList>
             {/* Définition des routes */}
             <Routes>
               <Route path="/categorie/:nomCategorie" element={<Categorie/>} />
+              <Route path="" element={<Categorie/>}/>
             </Routes>
           
         </Router>
 
       </div>
-
-      
 
       <Footer></Footer>
 

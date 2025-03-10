@@ -13,6 +13,7 @@ function CategoriesList() {
           {cat.nomcat}
         </NavLink>
       ))}
+      <NavLink to="" className="active"></NavLink>
     </nav>
   );
 }

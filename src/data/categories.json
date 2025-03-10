@@ -96,6 +96,90 @@
         "img" : "burger.png",
         "description": "Burger",
         "categorie": "Deserts" 
+      },
+      { 
+        "id": 13,
+        "prix": "17 500fc",
+        "img" : "poulet.png",
+        "description": "Poulet grillé",
+        "categorie": "Repas complets" 
+        },
+        { 
+        "id": 14,
+        "prix": "12 500fc",
+        "img" : "nouilles.png",
+        "description": "des nouilles",
+        "categorie": "Repas complets" 
+        },
+        { 
+        "id": 15,
+        "prix": "20 000fc",
+        "img" : "cuisse.png",
+        "description": "Borito's",
+        "categorie": "Repas complets" 
+        },
+        {
+        "id": 16,
+        "prix": "12 000fc",
+        "img" : "chawarma.png",
+        "description": "Chawarma poulet",
+        "categorie": "Deserts" 
+        },
+        { 
+        "id": 17,
+        "prix": "22 499fc",
+        "img" : "boritos.png",
+        "description": "Cuisse de poulet accompagné",
+        "categorie": "Deserts" 
+        },
+        { 
+        "id": 18,
+        "prix": "34 200fc",
+        "img" : "burger.png",
+        "description": "Burger",
+        "categorie": "Repas complets" 
+      },
+      { 
+        "id": 19,
+        "prix": "17 500fc",
+        "img" : "poulet.png",
+        "description": "Poulet grillé",
+        "categorie": "A emporter" 
+        },
+        { 
+        "id": 20,
+        "prix": "12 500fc",
+        "img" : "nouilles.png",
+        "description": "des nouilles",
+        "categorie": "A emporter" 
+        },
+        { 
+        "id": 21,
+        "prix": "20 000fc",
+        "img" : "cuisse.png",
+        "description": "Borito's",
+        "categorie": "A emporter" 
+        },
+        {
+        "id": 22,
+        "prix": "12 000fc",
+        "img" : "chawarma.png",
+        "description": "Chawarma poulet",
+        "categorie": "A emporter" 
+        },
+        { 
+        "id": 23,
+        "prix": "22 499fc",
+        "img" : "boritos.png",
+        "description": "Cuisse de poulet accompagné",
+        "categorie": "Deserts" 
+        },
+        { 
+        "id": 24,
+        "prix": "34 200fc",
+        "img" : "burger.png",
+        "description": "Burger",
+        "categorie": "Deserts" 
       }
     ]
   }

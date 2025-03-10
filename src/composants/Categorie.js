@@ -1,23 +1,45 @@
 import { useParams } from "react-router-dom";
 import data from "../data/categories.json";
+import { useRef, useState } from "react";
 
 function Categorie() {
   const { nomCategorie } = useParams();
   const categorie = data.categories.find((cat) => cat.nomcat === nomCategorie);
   const elements = data.elements.filter((el) => el.categorie === nomCategorie);
 
+  // Slider
+  const sliderRef = useRef(null);
+  const [IsDragging, setIsDragging] = useState(false);
+  const [offsetX, setOffsetX] = useState(0);
+  const startXRef = useRef(0);
+
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    startXRef.current = e.clientX - offsetX;
+  };
+
+  const handleMouseMove = (e) => {
+    if (!IsDragging) return;
+    const newX = e.clientX - startXRef.current;
+    setOffsetX(newX);
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
   if (!categorie) {
-    return <h2 className="p-1">Catégorie introuvable !</h2>;
+    return <h2 className="p-2 bg-white rounded container">Cliquez sur une catégorie pour voir les plats !</h2>;
   }
 
   return (
-    <div className="p-3 mb-4 bg-white rounded overflow-hidden">
+    <div ref={sliderRef} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp} className="p-3 slider mb-4 bg-white rounded overflow-hidden">
 
       <h5 className="mb-3">{categorie.nomcat}</h5>
-      <div className="plats gap-3 rounded d-flex">
+      <div  className="plats slides-container gap-3 rounded d-flex" style={{ transform: `translateX(${offsetX}px)` }}>
         {elements.length > 0 ? (
             elements.map((el) => (
-              <div key={el.id} className="plat">
+              <div key={el.id} className="plat slide">
                   <img className="rounded" src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
                   <h5 className="p-1">{el.prix}</h5>
                   <p className="p-1">{el.description}</p>

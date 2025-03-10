@@ -53,4 +53,15 @@ body{
   color: #fff!important;
 }
 
-/* Footer */
+.slides-container {
+  display: flex;
+  transition: transform 0.2s ease-out;
+}
+
+.slider{
+  cursor: grabbing;
+  white-space: nowrap;
+  cursor: grab;
+  user-select: none;
+  scroll-behavior: smooth;
+}
