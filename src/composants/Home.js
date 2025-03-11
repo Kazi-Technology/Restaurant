@@ -22,7 +22,7 @@ const Home = () => {
                     {/* Définition des routes */}
                     <Routes>
                         <Route path="/categorie/:nomCategorie" element={<Categorie/>} />
-                        <Route path="" element={<Categorie/>}/>
+                        <Route path="/" element={<Categorie/>}/>
                     </Routes>
                     
                 </Router>

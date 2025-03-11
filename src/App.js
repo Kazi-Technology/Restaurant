@@ -1,6 +1,7 @@
 import './App.css';
 import Preloader from './composants/Preloader'
-import Home from './composants/Home'
+import Categorie from './composants/Categorie'
+import Home from './composants/Home';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -9,14 +10,18 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false); // Cache le preloader après 3 secondes
+      setLoading(false);
     }, 3000);
   }, []);
 
   return (
     <div>
 
-      {loading ? <Preloader /> : <Home/> }
+      {loading ? <Preloader /> : (
+        <Home>
+          <Categorie/>
+        </Home>
+      ) }
      
     </div>
   );

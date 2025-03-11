@@ -80,11 +80,14 @@ function Categorie() {
           {elements.length > 0 ? (
               elements.map((el) => (
                 <div key={el.id} className="plat rounded slide">
-                    <img className="rounded" src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
-                    <h5 className="p-1">{`CDF ${el.prix}`}</h5>
-                    <p className="p-1">{el.description}</p>
+                    <img className="rounded w-100" src={require(`../assets/images/${el.img}`)} alt="img-plat" />  
+                    <h4 className="p-1">{`CDF ${el.prix}`}</h4>
+                    <p className="p-1 w-100">{el.details}</p>
 
-                    <button className="btn btn-danger w-100 p-2 fw-bold"><i className="bi bi-plus-lg"></i> Ajouter</button>
+                    <div className="d-flex w-100 overflow-hidden p-1 align-items-center justify-content-between">
+                      <h6>{el.description}</h6>
+                      <button className="btn btn-danger p-2"><i className="bi bi-plus-lg"></i>Ajouter</button>
+                    </div>
                 </div>
               ))
           ) : (

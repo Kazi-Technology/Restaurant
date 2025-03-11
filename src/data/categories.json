@@ -18,168 +18,214 @@
         "prix": 17500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
         },
         { 
         "id": 2,
         "prix": 12500,
         "img" : "nouilles.png",
         "description": "des nouilles",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
         },
         { 
         "id": 3,
         "prix": 20400,
         "img" : "cuisse.png",
         "description": "Borito's",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         {
         "id": 4,
         "prix": 12500,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 5,
         "prix": 23500,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 6,
         "prix": 35500,
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
       },
       { 
         "id": 7,
         "prix": 19500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 8,
         "prix": 20200,
         "img" : "nouilles.png",
         "description": "des nouilles",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 9,
         "prix": 20450,
         "img" : "cuisse.png",
         "description": "Borito's",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         {
         "id": 10,
         "prix": 13600,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 11,
         "prix": 22500,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 12,
-        "prix": 34.200,
+        "prix": 34200,
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
       },
       { 
         "id": 13,
         "prix": 17500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 14,
         "prix": 12500,
         "img" : "nouilles.png",
         "description": "des nouilles",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 15,
         "prix": 20100,
         "img" : "cuisse.png",
         "description": "Borito's",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         {
         "id": 16,
         "prix": 12700,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 17,
         "prix": 22499,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 18,
         "prix": 34200,
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "Repas complets" 
+        "categorie": "Repas complets",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
       },
       { 
         "id": 19,
         "prix": 17500,
         "img" : "poulet.png",
         "description": "Poulet grillé",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 20,
         "prix": 12500,
         "img" : "nouilles.png",
         "description": "des nouilles",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 21,
         "prix": 20200,
         "img" : "cuisse.png",
         "description": "Borito's",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         {
         "id": 22,
         "prix": 12700,
         "img" : "chawarma.png",
         "description": "Chawarma poulet",
-        "categorie": "A emporter" 
+        "categorie": "A emporter",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 23,
         "prix": 25500,
         "img" : "boritos.png",
         "description": "Cuisse de poulet accompagné",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
         },
         { 
         "id": 24,
         "prix": 34200,
         "img" : "burger.png",
         "description": "Burger",
-        "categorie": "Desserts" 
+        "categorie": "Desserts",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam libero repellat architecto."
+
       }
     ]
   }

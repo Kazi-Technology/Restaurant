@@ -46,9 +46,8 @@ const Search = () => {
                             <button className="btn btn-danger w-100 p-2 fw-bold"><i className="bi bi-plus-lg"></i> Ajouter</button>
                         </div>
                       ))
-                      ) : (
-                      <p className="p-2"> Aucun élément trouvé </p>
-                    )}
+                    ) : ""}
+
                   </div>
 
 
