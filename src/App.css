@@ -93,10 +93,6 @@ body{
   width: 250px!important;
 }
 
-.plats .plat p{
-  width: 250px!important;
-}
-
 /* Medias query */
 
 @media (max-width : 900px){

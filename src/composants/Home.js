@@ -2,8 +2,7 @@
 import Navbar from './Navbar'
 import Categorie from './Categorie'
 import Search from './Search'
-// import Footer from './Footer'
-import CategoriesList from './CategoriesList';
+import CategoriesList from './CategoriesList'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const Home = () => {
