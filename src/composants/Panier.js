@@ -1,16 +1,18 @@
 import React from 'react';
+import data from "../data/categories.json"
 
 const Panier = () => {
     return (
         <div className="form-fact">
-            <form action="/admin/index" method="get">
+            <form action="/admin/home" method="get">
 
                 <div className="choixTable">
                     <select name="table" id="" className="selectTable">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
+                        {data.tables.map((tab) =>(
+
+                            <option key={tab.id} value={tab.nomTable}>{tab.nomTable}</option>
+
+                        ))}
                     </select>
                 </div>
             <button type="submit" className="btn btn-success">Valider</button>
