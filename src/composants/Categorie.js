@@ -1,9 +1,13 @@
 import { useParams } from "react-router-dom";
 import data from "../data/categories.json";
 import { useRef, useState } from "react";
+import { useCart } from "../context/CartContexte";
 
 
 function Categorie() {
+
+  const { addToCart } = useCart();
+  
   const { nomCategorie } = useParams();
   const categorie = data.categories.find((cat) => cat.nomcat === nomCategorie);
   const elements = data.elements.filter((el) => el.categorie === nomCategorie);
@@ -89,7 +93,7 @@ function Categorie() {
 
                         <div className="d-flex w-100 overflow-hidden p-1 align-items-center justify-content-between">
                             <h6>{el.description}</h6>
-                            <button className="btn btn-danger p-2"><i className="bi bi-plus-lg"></i>Ajouter</button>
+                            <button onClick={() => addToCart(el)} className="btn btn-danger p-2"><i className="bi bi-plus-lg"></i>Ajouter</button>
                         </div>
                     </div>
                 ))

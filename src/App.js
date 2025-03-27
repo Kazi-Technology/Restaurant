@@ -1,8 +1,15 @@
 import AppRoutes from "./routes";
+import { CartProvider } from "./context/CartContexte";
 import './App.css'
 
 const App = () => {
-  return <AppRoutes />;
+  return (
+
+    <CartProvider>
+      <AppRoutes />
+    </CartProvider>
+
+  )
 };
 
 export default App;

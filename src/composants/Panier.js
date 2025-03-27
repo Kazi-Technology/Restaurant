@@ -1,7 +1,12 @@
-import React from 'react';
+import React from 'react'
 import data from "../data/categories.json"
+import { useCart } from "../context/CartContext";
+
 
 const Panier = () => {
+
+    const { cart } = useCart();
+
     return (
         <div className="form-fact d-flex align-items-center justify-content-center w-100 position-fixed">
             <form className="bg-white p-3 rounded" action="/admin/home" method="get">
@@ -19,6 +24,17 @@ const Panier = () => {
 
                 <div className="mb-4">
 
+                    {cart.length === 0 ? (
+                        <p>Votre panier est vide.</p>
+                    ) : (
+                        <ul>
+                        {cart.map((item, index) => (
+                            <li key={index}>
+                            {item.name} - {item.price} $
+                            </li>
+                        ))}
+                        </ul>
+                    )}
 
                 </div>
 

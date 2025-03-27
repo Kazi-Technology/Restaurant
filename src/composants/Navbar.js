@@ -1,6 +1,10 @@
 import logo from '../assets/logos/logo.png'
+import { useCart } from "../context/CartContexte";
 
 const Navbar = () => {
+
+    const { cart } = useCart();
+
     return (
         <header className="bg-white position-fixed p-2 menu mb-5">
             
@@ -11,8 +15,8 @@ const Navbar = () => {
                 </a>
 
                 <div className="position-relative">
-                    <p className="et-cmd bg-danger text-white position-absolute">0</p>
-                    <i class="bi bi-cart3"></i>
+                    <p className="et-cmd bg-danger text-white position-absolute"> {cart.length}</p>
+                    <i class="">🛒</i>
                 </div>
             </div>
 
