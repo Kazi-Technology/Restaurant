@@ -30,7 +30,6 @@ const Search = () => {
             <div className="search mb-1 container p-2 d-flex align-items-center justify-content-center overflow-hidden">
 
                 <input value={searchTerm} onInput={handleInputChange} className="border-0 bg-none p-2" type="search" placeholder="Rechercher votre plat" name="search" id="search"/>
-                <label className="text-center bg-danger text-white p-2" htmlFor="search"><i class="bi bi-search"></i></label>
 
             </div>
 
