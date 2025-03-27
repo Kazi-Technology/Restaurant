@@ -1,13 +1,20 @@
 import logo from '../assets/logos/logo.png';
+import burger from '../assets/images/burger-1.png'
 
 const Accueil = () => {
     return (
-        <div className="home d-flex align-items-center justify-content-center flex-column">
+        <div>
 
-            <img width="250" src={logo} alt="logo" className="mb-3" />
-            <h1>Bienvenue chez nous !</h1>
-            <p className="text-center p-3 container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores recusandae illo aliquam dolore quaerat aliquid dignissimos. Facere non alias delectus numquam, repellat ab, qui, voluptatem quo vitae adipisci recusandae beatae?</p>
-            <a href="/categorie/" role="button" className="btn btn-danger p-2" >Cliquez pour passer à la commande</a>
+            <img width="120" src={logo} alt="burger" id="brg" className="position-absolute" />
+
+            <div className="home d-flex align-items-center justify-content-center flex-column">
+
+                <img width="200" src={burger} alt="logo" className="mb-1" />
+                <h2>Bienvenue chez nous <span className="text text-danger">!</span></h2>
+                <p className="p-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores recusandae illo aliquam dolore quaerat aliquid dignissimos. Facere non alias delectus numquam, repellat ab, qui, voluptatem quo vitae adipisci recusandae beatae?</p>
+                <a href="/categorie/" role="button" className="btn btn-danger p-2" >Cliquez pour passer à la commande</a>
+
+            </div>
 
         </div>
     );
