@@ -1,19 +1,19 @@
 // Composants
 import Navbar from '../../composants/Navbar'
+import { useCart } from "../../context/CartContexte";
 import Search from '../../composants/Search.js'
 import CategoriesList from '../../composants/CategoriesList'
 import Categorie from '../../composants/Categorie.js'
 import Panier from '../../composants/Panier.js'
-import { useCart } from "../context/CartContexte";
 
 const Home = () => {
 
-    const { addToCart } = useCart();
+    const { cart } = useCart();
 
     return (
         <div>
 
-            {/* <Panier></Panier> */}
+            { cart.length > 0 && <Panier /> }
 
             <Navbar></Navbar>
             <Search></Search>

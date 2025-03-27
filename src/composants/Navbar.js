@@ -3,7 +3,10 @@ import { useCart } from "../context/CartContexte";
 
 const Navbar = () => {
 
-    const { cart } = useCart();
+    const { cart, toggleCart } = useCart();
+
+    // Calculer le nombre total d'articles (pas seulement les produits, mais la quantité totale)
+    const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
 
     return (
         <header className="bg-white position-fixed p-2 menu mb-5">
@@ -15,7 +18,7 @@ const Navbar = () => {
                 </a>
 
                 <div className="position-relative">
-                    <p className="et-cmd bg-danger text-white position-absolute"> {cart.length}</p>
+                    <p onClick={toggleCart} className="et-cmd bg-danger text-white position-absolute"> {totalItems}</p>
                     <i class="">🛒</i>
                 </div>
             </div>

@@ -1,11 +1,13 @@
 import React from 'react'
 import data from "../data/categories.json"
-import { useCart } from "../context/CartContext";
+import { useCart } from "../context/CartContexte";
 
 
 const Panier = () => {
 
-    const { cart } = useCart();
+    const { cart, isCartOpen } = useCart();
+
+    if (!isCartOpen) return null; 
 
     return (
         <div className="form-fact d-flex align-items-center justify-content-center w-100 position-fixed">
@@ -28,9 +30,9 @@ const Panier = () => {
                         <p>Votre panier est vide.</p>
                     ) : (
                         <ul>
-                        {cart.map((item, index) => (
-                            <li key={index}>
-                            {item.name} - {item.price} $
+                        {cart.map((item) => (
+                            <li key={item.id}>
+                            {item.description} - CDF {item.prix} x {item.quantity}
                             </li>
                         ))}
                         </ul>

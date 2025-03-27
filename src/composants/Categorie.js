@@ -1,7 +1,7 @@
-import { useParams } from "react-router-dom";
-import data from "../data/categories.json";
-import { useRef, useState } from "react";
-import { useCart } from "../context/CartContexte";
+import { useParams } from "react-router-dom"
+import data from "../data/categories.json"
+import { useRef, useState } from "react"
+import { useCart } from "../context/CartContexte"
 
 
 function Categorie() {
@@ -73,7 +73,7 @@ function Categorie() {
 
 
   if (!categorie) {
-    return <h4 className="p-2 bg-white rounded container">Cliquez sur une catégorie pour voir les plats !</h4>;
+    return <h4 className="p-2 bg-white rounded container">Cliquez sur une catégorie pour voir les plats !</h4>
   }
 
   return (

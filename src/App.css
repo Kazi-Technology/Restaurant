@@ -80,7 +80,7 @@ body{
 
 /* Slider */
 
-.slider{
+/* .slider{
   white-space: nowrap;
   user-select: none;
   cursor: grab;
@@ -90,7 +90,7 @@ body{
 .slider .slide{
   user-select: none;
   pointer-events: none;
-}
+} */
 
 /* Recherche */
 
