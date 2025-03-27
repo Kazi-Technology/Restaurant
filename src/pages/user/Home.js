@@ -1,17 +1,18 @@
 // Importations composants
-import Navbar from './Navbar'
-import Categorie from './Categorie'
-import Search from './Search'
-import CategoriesList from './CategoriesList'
+import Navbar from '../../composants/Navbar'
+import Categorie from '../../composants/Categorie'
+import Search from '../../composants/Search'
+import CategoriesList from '../../composants/CategoriesList'
+
+//React-Router
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const Home = () => {
     return (
         <div>
-            <Router>
-                <Navbar></Navbar>
-            </Router>
-            
+
+            <Navbar></Navbar>
+
             <Search></Search>
 
             <div className="container">
@@ -23,7 +24,7 @@ const Home = () => {
                     {/* Définition des routes */}
                     <Routes>
                         <Route path="/categorie/:nomCategorie" element={<Categorie/>} />
-                        <Route path="/categorie/" element={<Categorie/>}/>
+                        <Route path="/" element={<Categorie/>}/>
                     </Routes>
                     
                 </Router>

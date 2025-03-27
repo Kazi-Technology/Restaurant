@@ -1,30 +1,8 @@
-import './App.css';
-import Preloader from './composants/Preloader'
-import Categorie from './composants/Categorie'
-import Home from './composants/Home'
-import { useEffect, useState } from 'react'
+import AppRoutes from "./routes";
 
-function App() {
-
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-  }, []);
-
-  return (
-    <div>
-
-      {loading ? <Preloader /> : (
-        <Home>
-          <Categorie /> 
-        </Home>
-      )}
-     
-    </div>
-  );
-}
+const App = () => {
+  return <AppRoutes />;
+};
 
 export default App;
+
