@@ -2,8 +2,6 @@ import { useParams } from "react-router-dom";
 import data from "../data/categories.json";
 import { useRef, useState } from "react";
 
-//Composants
-
 
 function Categorie() {
   const { nomCategorie } = useParams();
@@ -71,7 +69,7 @@ function Categorie() {
 
 
   if (!categorie) {
-    return <h3 className="p-2 bg-white rounded container">Cliquez sur une catégorie pour voir les plats !</h3>;
+    return <h4 className="p-2 bg-white rounded container">Cliquez sur une catégorie pour voir les plats !</h4>;
   }
 
   return (
