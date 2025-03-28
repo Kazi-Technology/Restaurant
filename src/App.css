@@ -5,7 +5,7 @@
   text-decoration: none!important;
   list-style: none;
   outline: none!important;
-  box-sizing: border-box;
+  box-sizing: border-box!important;
   margin: 0;
   padding: 0!important;
 }
@@ -80,17 +80,17 @@ body{
 
 /* Slider */
 
-/* .slider{
+/* /* .slider{
   white-space: nowrap;
   user-select: none;
   cursor: grab;
   scroll-behavior: smooth;
-}
+} */
 
 .slider .slide{
   user-select: none;
-  pointer-events: none;
-} */
+  /* pointer-events: none; */
+} 
 
 /* Recherche */
 
@@ -102,7 +102,7 @@ body{
 /* Plats */
 
 .plats .plat{
-  width: 250px!important;
+  width: 2500px!important;
 }
 
 /* Formulaire/Panier */
@@ -115,7 +115,8 @@ body{
 }
 
 .form-fact form{
-  width: 500px;
+  width: 400px;
+  scroll-behavior: smooth;
 }
 
 /* Medias query */
@@ -139,7 +140,7 @@ body{
   }
 
   .form-fact form{
-    width: 450px;
+    width: 3900px;
   }
 
 }
@@ -159,7 +160,7 @@ body{
   }
 
   .form-fact form{
-    width: 350px;
+    width: 320px;
   }
 
 }
