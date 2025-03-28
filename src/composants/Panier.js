@@ -46,7 +46,7 @@ const Panier = () => {
                         {cart.map((item) => (
                             <div className="d-flex justify-content-between" key={item.id}>
                                 <input readOnly type="text" value={item.description} className="form-control border-0" name="description" />
-                                <input id="aaa" min="1" type="number" value={item.quantity} className="form-control text-center border-0 w-5" name="quantity" />
+                                <input min="1" type="number" value={item.quantity} className="form-control text-center border-0 w-5" name="quantity" />
                                 <input id="prx" readOnly type="text" value={`CDF ${item.prix * item.quantity}`} className="form-control border-0" name="prixTot" />
                                 <p className="d-none">{montTot += item.prix * item.quantity}</p>          
                             </div>

@@ -80,29 +80,28 @@ body{
 
 /* Slider */
 
-/* /* .slider{
-  white-space: nowrap;
+.slider{
+  white-space: break-spaces;
   user-select: none;
   cursor: grab;
   scroll-behavior: smooth;
-} */
+} 
 
 .slider .slide{
   user-select: none;
+  width: 225px!important;
   /* pointer-events: none; */
 } 
+
+.slider .slide p{
+  text-align: justify;
+}
 
 /* Recherche */
 
 .results-search{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-}
-
-/* Plats */
-
-.plats .plat{
-  width: 2500px!important;
 }
 
 /* Formulaire/Panier */
@@ -114,7 +113,7 @@ body{
   top: 0;
 }
 
-#qte, #prx{
+#prx{
   text-align: right;
 }
 
