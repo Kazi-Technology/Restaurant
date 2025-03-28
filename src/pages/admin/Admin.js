@@ -2,7 +2,7 @@ import logo from '../../assets/logos/logoDelicius.png'
 
 const Admin = () => {
     return (
-        <div className="form-creer-admin d-flex align-items-center justify-content-center">
+        <div className="form-conn-admin d-flex align-items-center justify-content-center">
 
             <img width="150" src={logo} alt="burger" id="brg" className="position-absolute" />
 

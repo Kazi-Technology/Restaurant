@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import data from '../data/categories.json';
 
-const Search = () => {
+const SearchAdmin = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredData, setFilteredData] = useState([]);  
     let results = ""
@@ -26,7 +26,7 @@ const Search = () => {
 
     return (
         <div className="mb-4">
-            <div className="search mb-1 container p-2 d-flex overflow-hidden">
+            <div className="search-admin mb-1 p-2 overflow-hidden">
 
                 <input value={searchTerm} onInput={handleInputChange} className="border-0 bg-none p-2" type="search" placeholder="Rechercher votre plat" name="search" id="search"/>
 
@@ -56,4 +56,4 @@ const Search = () => {
     );
 };
 
-export default Search;
+export default SearchAdmin;

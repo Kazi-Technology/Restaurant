@@ -3,9 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBarAdmin = () => {
     return (
-        <div className="bg-danger d-flex align-items-center p-3 justify-content-between">
-            
-            
+        <div className="bg-danger d-flex align-items-center p-3 justify-content-between mb-3">
 
             <div className="d-flex align-items-center gap-3">
                 <a href="home"><img width="120" src={logo} alt="logo" /></a>
@@ -16,9 +14,14 @@ const NavBarAdmin = () => {
 
             <div className="d-flex align-items-center gap-3">
 
-                <h6 className="text-white p-2 mt-1">Jeffren Mokamo</h6>
+                <h6 className="text-white p-2 mt-2">Jeffren Mokamo</h6>
 
                 <button className="btn btn-success p-2">Se deconnecter</button>
+
+                <div className="position-relative mt-2 cmd">
+                    <p className="et-cmd bg-white text-danger position-absolute">0</p>
+                    <p class="text-white"> Commande(s) reçue(s)</p>
+                </div>
 
             </div>
 
