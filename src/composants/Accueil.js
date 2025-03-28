@@ -1,11 +1,11 @@
-import logo from '../assets/logos/logo.png';
+import logo from '../assets/logos/logoDelicius.png';
 import burger from '../assets/images/burger-1.png'
 
 const Accueil = () => {
     return (
         <div>
 
-            <img width="120" src={logo} alt="burger" id="brg" className="position-absolute" />
+            <img width="150" src={logo} alt="burger" id="brg" className="position-absolute" />
 
             <div className="home d-flex align-items-center justify-content-center flex-column">
 

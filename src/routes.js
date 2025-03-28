@@ -12,6 +12,7 @@ import Home from "./pages/user/Home"
 import Admin from "./pages/admin/Admin";
 import HomeAdmin from "./pages/admin/HomeAdmin";
 import Statistiques from "./pages/admin/Statistiques";
+import CreateAdmin from "./pages/admin/CreateAdmin";
 
 const AppRoutes = () => {
   return (
@@ -28,6 +29,7 @@ const AppRoutes = () => {
         <Route path="/admin" element={<AdminLayout />}>
           <Route index element={<Admin />} />
           <Route path="home" element={<HomeAdmin />} />
+          <Route path="creer" element={<CreateAdmin />} />
           <Route path="stats" element={<Statistiques />} />
         </Route>
       </Routes>
