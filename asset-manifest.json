@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/Restaurant/static/css/main.6d0ede85.css",
-    "main.js": "/Restaurant/static/js/main.d157ab5c.js",
+    "main.css": "/Restaurant/static/css/main.e0acc220.css",
+    "main.js": "/Restaurant/static/js/main.4886731b.js",
     "static/media/poisson.jpg": "/Restaurant/static/media/poisson.072babf1362279fc4565.jpg",
+    "static/media/-removebg-preview.png": "/Restaurant/static/media/64fd67d1b9a4eff16a6fcbc854866d51-removebg-preview.aeb565574b0f86884475.png",
     "static/media/burger-1.png": "/Restaurant/static/media/burger-1.0d613b27e996067d53dd.png",
-    "static/media/boritos.png": "/Restaurant/static/media/boritos.9cd701fcd90fe25af0d8.png",
-    "static/media/cuisse.png": "/Restaurant/static/media/cuisse.7c799d0be0b44a5fb580.png",
-    "static/media/burger.png": "/Restaurant/static/media/burger.eb01bbadae904ce0afb6.png",
-    "static/media/chawarma.png": "/Restaurant/static/media/chawarma.f576b20b755a14f93bc4.png",
+    "static/media/fille.png": "/Restaurant/static/media/fille.1f442f66b7f6a21c14ef.png",
     "static/media/bootstrap-icons.woff?": "/Restaurant/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/poulet.png": "/Restaurant/static/media/poulet.0742be7ad2590583a420.png",
-    "static/media/nouilles.png": "/Restaurant/static/media/nouilles.e886e89efd18f0169a66.png",
+    "static/media/boritos.png": "/Restaurant/static/media/boritos.d72cb6945f117350d9ec.png",
+    "static/media/cuisse.png": "/Restaurant/static/media/cuisse.d1c30086640aa27b32ae.png",
     "static/media/bootstrap-icons.woff2?": "/Restaurant/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/burger.png": "/Restaurant/static/media/burger.a0ff4b9587bfdf29611f.png",
+    "static/media/chawarma.png": "/Restaurant/static/media/chawarma.5ad7ca6f0195fac4133b.png",
+    "static/media/nouilles.png": "/Restaurant/static/media/nouilles.9c04cd3081dfeeaf87e2.png",
+    "static/media/poulet.png": "/Restaurant/static/media/poulet.0a2077d5e42d56791ecd.png",
+    "static/media/logoDelicius.png": "/Restaurant/static/media/logoDelicius.7e1354c7c236b32f0769.png",
+    "static/media/logoBlanc.png": "/Restaurant/static/media/logoBlanc.777b5ecd8d9755b12ee0.png",
+    "static/media/LgDl.png": "/Restaurant/static/media/LgDl.461b9cf281bfd1b5cdac.png",
     "static/media/chef.avif": "/Restaurant/static/media/chef.45bd1a5d1644411871db.avif",
     "static/media/main-chef.avif": "/Restaurant/static/media/main-chef.62a352106cd6120ab741.avif",
     "index.html": "/Restaurant/index.html",
-    "main.6d0ede85.css.map": "/Restaurant/static/css/main.6d0ede85.css.map",
-    "main.d157ab5c.js.map": "/Restaurant/static/js/main.d157ab5c.js.map"
+    "main.e0acc220.css.map": "/Restaurant/static/css/main.e0acc220.css.map",
+    "main.4886731b.js.map": "/Restaurant/static/js/main.4886731b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0ede85.css",
-    "static/js/main.d157ab5c.js"
+    "static/css/main.e0acc220.css",
+    "static/js/main.4886731b.js"
   ]
 }
