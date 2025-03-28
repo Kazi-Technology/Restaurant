@@ -1,5 +1,5 @@
 import logo from '../assets/logos/logoDelicius.png';
-import burger from '../assets/images/burger-1.png'
+import burger from '../assets/images/fille.png'
 
 const Accueil = () => {
     return (
