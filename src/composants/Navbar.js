@@ -1,5 +1,5 @@
 import logo from '../assets/logos/logo.png'
-import { useCart } from "../context/CartContexte";
+import { useCart } from "../context/CartContexte"
 
 const Navbar = () => {
 

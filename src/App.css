@@ -114,9 +114,8 @@ body{
   top: 0;
 }
 
-.form-fact form{
-  width: 400px;
-  scroll-behavior: smooth;
+#qte, #prx{
+  text-align: right;
 }
 
 /* Medias query */
@@ -139,10 +138,6 @@ body{
     width: 450px;
   }
 
-  .form-fact form{
-    width: 3900px;
-  }
-
 }
 
 @media (max-width : 380px){
@@ -157,10 +152,6 @@ body{
 
   .home p{
     width: 350px;
-  }
-
-  .form-fact form{
-    width: 320px;
   }
 
 }

@@ -28,6 +28,7 @@ export const CartProvider = ({ children }) => {
   // Fonction pour afficher/cacher le panier
   const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
+    
   };
 
   return (
