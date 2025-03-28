@@ -119,6 +119,14 @@ body{
 
 /* Medias query */
 
+@media (min-width : 1200px){
+
+  .results-search{
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+}
+
 @media (max-width : 900px){
 
   .results-search{
