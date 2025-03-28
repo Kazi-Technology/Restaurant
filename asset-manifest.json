@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Restaurant/static/css/main.dc215f31.css",
-    "main.js": "/Restaurant/static/js/main.f5e545ba.js",
+    "main.css": "/Restaurant/static/css/main.6d0ede85.css",
+    "main.js": "/Restaurant/static/js/main.d157ab5c.js",
     "static/media/poisson.jpg": "/Restaurant/static/media/poisson.072babf1362279fc4565.jpg",
+    "static/media/burger-1.png": "/Restaurant/static/media/burger-1.0d613b27e996067d53dd.png",
     "static/media/boritos.png": "/Restaurant/static/media/boritos.9cd701fcd90fe25af0d8.png",
     "static/media/cuisse.png": "/Restaurant/static/media/cuisse.7c799d0be0b44a5fb580.png",
     "static/media/burger.png": "/Restaurant/static/media/burger.eb01bbadae904ce0afb6.png",
@@ -14,11 +15,11 @@
     "static/media/chef.avif": "/Restaurant/static/media/chef.45bd1a5d1644411871db.avif",
     "static/media/main-chef.avif": "/Restaurant/static/media/main-chef.62a352106cd6120ab741.avif",
     "index.html": "/Restaurant/index.html",
-    "main.dc215f31.css.map": "/Restaurant/static/css/main.dc215f31.css.map",
-    "main.f5e545ba.js.map": "/Restaurant/static/js/main.f5e545ba.js.map"
+    "main.6d0ede85.css.map": "/Restaurant/static/css/main.6d0ede85.css.map",
+    "main.d157ab5c.js.map": "/Restaurant/static/js/main.d157ab5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc215f31.css",
-    "static/js/main.f5e545ba.js"
+    "static/css/main.6d0ede85.css",
+    "static/js/main.d157ab5c.js"
   ]
 }
