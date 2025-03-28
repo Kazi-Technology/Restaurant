@@ -1,9 +1,9 @@
-import React from 'react';
+import NavBarAdmin from "../../composants/NavBarAdmin";
 
 const Statistiques = () => {
     return (
         <div>
-            <h1>Statistique</h1>
+            <NavBarAdmin></NavBarAdmin>
         </div>
     );
 };

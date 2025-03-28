@@ -1,9 +1,9 @@
-
+import NavBarAdmin from "../../composants/NavBarAdmin";
 
 const HomeAdmin = () => {
     return (
         <div>
-            <h1>Mokamo</h1>
+            <NavBarAdmin></NavBarAdmin>
         </div>
     );
 };
