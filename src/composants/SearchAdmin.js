@@ -25,7 +25,7 @@ const SearchAdmin = () => {
     };
 
     return (
-        <div className="mb-4">
+        <div className="mb-2">
             <div className="search-admin mb-1 p-2 overflow-hidden">
 
                 <input value={searchTerm} onInput={handleInputChange} className="border-0 bg-none p-2" type="search" placeholder="Rechercher votre plat" name="search" id="search"/>

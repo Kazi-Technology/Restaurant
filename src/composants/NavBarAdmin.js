@@ -16,7 +16,7 @@ const NavBarAdmin = () => {
 
                 <h6 className="text-white p-2 mt-2">Jeffren Mokamo</h6>
 
-                <button className="btn btn-success p-2">Se deconnecter</button>
+                <button className="bg-white rounded border-0 fw-semibold text-danger p-2">Se deconnecter</button>
 
                 <div className="position-relative mt-2 cmd">
                     <p className="et-cmd bg-white text-danger position-absolute">0</p>
